@@ -1,0 +1,24 @@
+#+TITLE: mdo-modified
+#+AUTHOR: Cody Reichert
+
+This a theme for [[https://github.com/kelvinh/org-page][org-page]] an Emacs, Org-mode static site generator.
+
+It's pretty much exactly like the built-in [[https://github.com/kelvinh/org-page/tree/master/themes][mdo]] theme, but with some
+different fonts and CSS changes. As an example, [[https://codyreichert.github.io][my blog]] uses
+mdo-modified.
+
+** Installation
+   Adding new themes to org-page is pretty easy:
+
+   1) Clone this repo to anywhere on your system:
+   #+BEGIN_SRC sh
+   git clone git@github.com:CodyReichert/mdo-modified=
+   #+END_SRC
+
+   2) Make your org-page configuration aware of the new theme, and
+      tell it to use it:
+
+   #+BEGIN_SRC emacs-lisp
+     (setq op/theme-root-directory "/path/to/mdo-modified")
+     (setq op/theme 'mdo-modified)
+   #+END_SRC
