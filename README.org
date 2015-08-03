@@ -1,7 +1,7 @@
 #+TITLE: mdo-modified
 #+AUTHOR: Cody Reichert
 
-This a theme for [[https://github.com/kelvinh/org-page][org-page]] an Emacs, Org-mode static site generator.
+This a theme for [[https://github.com/kelvinh/org-page][org-page]], an Emacs and Org-mode static site generator.
 
 It's pretty much exactly like the built-in [[https://github.com/kelvinh/org-page/tree/master/themes][mdo]] theme, but with some
 different fonts and CSS changes. As an example, [[https://codyreichert.github.io][my blog]] uses
